@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E5E5E5"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:background="#889BFD"></ImageView>
+
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="54dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/SLAT"></ImageView>
+
+        <LinearLayout
+            android:layout_marginTop="68dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="342dp"
+            android:layout_height="607dp"
+            android:stateListAnimator="@null"
+            android:orientation="vertical"
+            android:background="@drawable/image_round">
+
+            <Spinner
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:background="@drawable/spinner"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="28dp"></Spinner>
+            
+            <EditText
+                android:gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="21dp"
+                android:background="@drawable/image_round_small"
+                android:hint="제목"></EditText>
+
+            <EditText
+                android:gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="21dp"
+                android:background="@drawable/image_round_small"
+                android:hint="내용"></EditText>
+            
+            <RelativeLayout
+                android:layout_width="342dp"
+                android:layout_height="140dp"
+                android:stateListAnimator="@null">
+                
+                <Button
+                    android:id="@+id/green"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/round3"
+                    android:layout_marginLeft="35dp"
+                    android:layout_centerInParent="true"></Button>
+
+                <Button
+                    android:id="@+id/yellow"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_toLeftOf="@+id/green"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/round2"></Button>
+
+                <Button
+                    android:id="@+id/red"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_toLeftOf="@+id/yellow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/round1"></Button>
+
+                <Button
+                    android:id="@+id/skyblue"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_toRightOf="@+id/green"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/round4"></Button>
+
+                <Button
+                    android:id="@+id/pink"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_toRightOf="@+id/skyblue"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/round5"></Button>
+                
+            </RelativeLayout>
+            
+            <Button
+                android:id="@+id/insert"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:text="등록"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_round"></Button>
+
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+        
+</LinearLayout>

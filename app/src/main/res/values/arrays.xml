@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="과목">
+        <item>국어</item>
+        <item>수학</item>
+        <item>한국사</item>
+        <item>앱프로그래밍</item>
+        <item></item>
+        <item>국어</item>
+        <item>국어</item>
+        <item>국어</item>
+    </string-array>
+    
+</resources>
