@@ -21,7 +21,7 @@
             android:layout_width="54dp"
             android:layout_height="24dp"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/SLAT"></ImageView>
+            android:background="@drawable/slat"></ImageView>
 
         <LinearLayout
             android:layout_marginTop="68dp"

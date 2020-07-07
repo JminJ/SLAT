@@ -12,14 +12,14 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/Rectangle5"></ImageView>
+            android:background="@drawable/rectangle5"></ImageView>
 
         <ImageView
             android:layout_width="54dp"
             android:layout_height="24dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="25dp"
-            android:background="@drawable/SLAT" />
+            android:background="@drawable/slat" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -54,6 +54,7 @@
             android:orientation="vertical">
 
             <ImageView
+                android:layout_marginTop="4dp"
                 android:layout_width="341dp"
                 android:layout_height="247dp"
                 android:background="@drawable/image_round"></ImageView>
@@ -61,7 +62,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="19dp"
+                android:layout_marginTop="29dp"
                 android:background="@drawable/button_round"
                 android:text="우리반 시간표 보러가기"
                 android:textColor="#F3F3F3"
@@ -73,7 +74,7 @@
             android:layout_width="341dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
-            android:layout_marginTop="435dp"
+            android:layout_marginTop="455dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -123,6 +124,93 @@
                 android:textColor="#9F9F9F"
                 android:textSize="14dp"></TextView>
         </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/subject_zone"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="508dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+
+            <RelativeLayout
+                android:id="@+id/subject_recent"
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="11dp">
+
+                <ImageView
+                    android:id="@+id/period_box1"
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_rectangle">
+                </ImageView>
+                
+                <TextView
+                    android:id="@+id/period1"
+                    android:layout_width="46dp"
+                    android:layout_height="22dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="1교시"
+                    android:gravity="center"
+                    android:background="@drawable/recent_subject"
+                    android:textColor="#F3F3F3"></TextView>
+                
+                <ImageView
+                    android:id="@+id/period_picture1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="45dp"
+                    android:background="@drawable/english1"></ImageView>
+
+                <ImageView
+                    android:layout_width="133dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="14dp"
+
+                    android:background="@drawable/line"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/subject_next"
+                android:layout_width="165dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/period_box2"
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_rectangle">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/period2"
+                    android:layout_width="46dp"
+                    android:layout_height="22dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="2교시"
+                    android:gravity="center"
+                    android:background="@drawable/recent_subject"
+                    android:textColor="#F3F3F3"></TextView>
+
+                <ImageView
+                    android:id="@+id/period_picture2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="45dp"
+                    android:background="@drawable/android1"></ImageView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
 
 
     </FrameLayout>
